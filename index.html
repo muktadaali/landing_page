@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billi Meow Pet Shop — Your Trusted Pet Companion</title>
+    <!-- Google Fonts for Bengali and English Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+    <body>
+
+        <header class="header">
+            <div class="container header-container">
+                <!-- Brand Primary Circular Logo -->
+                <a href="#" class="brand-logo">
+                    <img src="img/logo.png" alt="Logo" class="logo-img">
+                    <div class="brand-text-wrapper">
+                        <!--<span class="brand-title">BILLI MEOW</span>
+                        <span class="brand-tagline">PET SHOP</span> -->
+                    </div>
+                </a>
+
+                <!-- Pure CSS Hamburger Toggle Switch -->
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="menu-icon" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <!-- Navigation Links -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About Us</a>
+                    <a href="#services" class="nav-link">Our Services</a>
+                    <a href="#why-us" class="nav-link">Why Us</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="btn btn-primary">Visit Our Shop</a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <!-- Radio Controls -->
+                    <input type="radio" name="slider" id="slide1" class="slide-radio" checked>
+                    <input type="radio" name="slider" id="slide2" class="slide-radio">
+                    <input type="radio" name="slider" id="slide3" class="slide-radio">
+
+                    <!-- Slides Wrapper -->
+                    <div class="slides-container">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <span class="section-subtitle">Your Pet Deserves The Best</span>
+                                <h1>The best care and love for your beloved pet.</h1>
+                                <p>Quality pet supplies, caring service, and everything your beloved companion needs for a healthy happy life.</p>
+                                <a href="#services" class="btn btn-orange">Explore Our Shop</a>
+                            </div>
+                            <div class="slide-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80" alt="Cute Cat" class="slide-img">
+                                <div class="badge-floating">
+                                    <div class="badge-icon">🐱</div>
+                                    <div>
+                                        <strong style="display:block; font-size:0.9rem;">100% Premium Care</strong>
+                                        <small style="color:;">Loved by 500+ Pet Owners</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <span class="section-subtitle">All Accessories & Food</span>
+                                <h1>All essential accessories for cats and pets</h1>
+                                <p>From everyday essentials to quality accessories, find the right products for your furry friend in one single shop.</p>
+                                <a href="#gallery" class="btn btn-primary">View Products</a>
+                            </div>
+                            <div class="slide-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80" alt="Pet Accessories and Food" class="slide-img">
+                                <div class="badge-floating">
+                                    <div class="badge-icon">🥗</div>
+                                    <div>
+                                        <strong style="display:block; font-size:0.9rem;">Healthy & Authentic Food</strong>
+                                        <small style="color:var(--text-muted);">Direct Top Import Quality</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <span class="section-subtitle">Trustworthy Local Support</span>
+                                <h1>Reliable advice and comprehensive service</h1>
+                                <p>A friendly place for pet owners who want quality products, proper advice, and caring community support.</p>
+                                <a href="#contact" class="btn btn-orange">Visit Billi Meow</a>
+                            </div>
+                            <div class="slide-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=800&q=80" alt="Cat with Glasses" class="slide-img">
+                                <div class="badge-floating">
+                                    <div class="badge-icon">⭐</div>
+                                    <div>
+                                        <strong style="display:block; font-size:0.9rem;">Friendly Consultation</strong>
+                                        <small style="color:var(--text-muted);">Always Ready To Help</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Dot Controls -->
+                    <div class="slider-dots">
+                        <label for="slide1" class="dot" title="Slide 1"></label>
+                        <label for="slide2" class="dot" title="Slide 2"></label>
+                        <label for="slide3" class="dot" title="Slide 3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-container">
+                        <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=800&q=80" alt="Playful Cat at Billi Meow" class="about-main-img">
+                        <div class="about-accent-box">
+                            ❤️<br>A trusted destination for pets.
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-subtitle">About Billi Meow</span>
+                        <h2>Billi Meow Pet Shop — A trusted establishment built with love.</h2>
+                        <p>Billi Meow is a trusted name for the care and nutrition of your beloved cats and other pets. We believe that pets are not merely animals; they are cherished members of our families.</p>
+                        <p>At our shop, you will find top-quality cat food, toys, shampoo, litter, cages, and all essential accessories. Our primary goal is to ensure good health and a happy environment.</p>
+                        
+                        <div class="trust-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">🌿</div>
+                                <div class="feature-title">Quality Products</div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🤝</div>
+                                <div class="feature-title">Friendly Support</div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🐾</div>
+                                <div class="feature-title">Pet-First Care</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section bg-soft">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What We Offer</span>
+                    <h2 class="section-title">Our Special Services</h2>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">🍖</div>
+                        <h3 class="service-title">Pet Food</h3>
+                        <p class="service-desc">Dry and wet food from premium domestic and international brands that ensures your little one's nutrition and health.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">🎀</div>
+                        <h3 class="service-title">Cat Accessories</h3>
+                        <p class="service-desc">Attractive collars, belts, carrying bags, cute clothes, and essential, stylish accessories.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">🧶</div>
+                        <h3 class="service-title">Toys & Play</h3>
+                        <p class="service-desc">Scratching posts, catnip balls, lasers, and fun mouse-shaped toys that will keep cats active and playful.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">🧼</div>
+                        <h3 class="service-title">Grooming Essentials</h3>
+                        <p class="service-desc">Anti-tick shampoo, a brush, a nail clipper, and a special perfume that will keep your pet completely clean and fresh.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">📦</div>
+                        <h3 class="service-title">Litter & Hygiene</h3>
+                        <p class="service-desc">Highly absorbent, dust-free cat litter and tray that keep the home odor-free and pleasantly scented.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="service-card">
+                        <div class="service-icon-bg">💊</div>
+                        <h3 class="service-title">Veterinary Advice</h3>
+                        <p class="service-desc">Honest, essential, and friendly advice regarding basic pet care, vaccinations, and dietary habits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Why Choose Us</span>
+                    <h2 class="section-title">Why pet parents choose "Billi Meow"</h2>
+                </div>
+
+                <div class="why-us-grid">
+                    <div class="why-card">
+                        <div class="why-badge">💯</div>
+                        <h3>100% Genuine Product</h3>
+                        <p>We supply only trusted and original pet brand goods.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-badge">❤️</div>
+                        <h3>Sincere Service</h3>
+                        <p>Every member of our team loves and cares for pets from the heart.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-badge">💡</div>
+                        <h3>Proper Guidance</h3>
+                        <p>I provide clear and simple guidelines on food and care for new cat owners.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-badge">🏷️</div>
+                        <h3>Fair Price</h3>
+                        <p>We sell all items at affordable prices while maintaining the highest quality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section bg-soft">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Gallery</span>
+                    <h2 class="section-title">Billy Meow Pet Shop Gallery</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?auto=format&fit=crop&w=600&q=80" alt="Pet Food Display" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Premium Cat Food Collection</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=600&q=80" alt="Cute Kitten" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">A cute visitor to our shop.</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=600&q=80" alt="Cat Accessories" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Stylish accessories and collars</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80" alt="Dog Food & Toys" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Toys and other essential items</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=600&q=80" alt="Sleeping Cat" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Comfortable Cat Bed and Scratcher</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=600&q=80" alt="Orange Cat" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Billi Meow Family</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Testimonials</span>
+                    <h2 class="section-title">Customer Comments and Experiences</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"বিল্লি মেও থেকে আমার বিড়ালের জন্য অরিজিনাল খাবার ও লিটার পেয়েছি। ব্যবহার ও সার্ভিস দুটোই চমৎকার!"</p>
+                        </div>
+                        <div class="user-profile">
+                            <img src="img/T S.jpg" alt="তাহমিনা সুলতানা" class="avatar">
+                            <div>
+                                <div class="user-name">Tahmina Sultana</div>
+                                <div class="user-role">Cat owner, Dhaka</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"নতুন নতুন বিড়াল এনে অনেক কনফিউজড ছিলাম। উনাদের পরামর্শ খুব কাজে দিয়েছে। প্রিমিয়াম কোয়ালিটির সব খাবার পাওয়া যায়।"</p>
+                        </div>
+                        <div class="user-profile">
+                            <img src="img/AA.jpg" alt="asif ahmed" class="avatar">
+                            <div>
+                                <div class="user-name">Asif Ahmed</div>
+                                <div class="user-role">Pet Lover</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"দোকানের পরিবেশ অনেক পরিষ্কার আর দামও বেশ রিজনেবল। বিল্লি মেও এখন আমার বিড়ালের কেনাকাটার একমাত্র ভরসা।"</p>
+                        </div>
+                        <div class="user-profile">
+                            <img src="img/N J.png" alt="nusrat jahan" class="avatar">
+                            <div>
+                                <div class="user-name">Nusrat Jahan</div>
+                                <div class="user-role">Cat Owner</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-soft">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact and shop visit address</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Form Column -->
+                    <div class="contact-form-box">
+                        <h3 style="font-size:1.5rem; margin-bottom:20px;">Send us a message</h3>
+                        <form action="#" method="post" onsubmit="return false;">
+                            <div class="form-group">
+                                <label class="form-label" for="fullname">Full Name</label>
+                                <input type="text" id="fullname" class="form-input" placeholder="Rahim Ahmed" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="example@gmail.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-input" placeholder="+880 1XXXXXXXXX" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea id="message" rows="4" class="form-textarea" placeholder="Let us know your pet's needs...." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-orange" style="width:100%;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Info & Map Column -->
+                    <div class="contact-info-box">
+                        <div class="info-card">
+                            <div class="info-item">
+                                <div class="info-icon">📍</div>
+                                <div>
+                                    <div class="info-title">Shop Address</div>
+                                    <div class="info-detail">999 Middle Monipur, Kathaltola, Mirpur, Dhaka, Bangladesh, 1216</div>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">📞</div>
+                                <div>
+                                    <div class="info-title">Phone / WhatsApp</div>
+                                    <div class="info-detail">+880 1766-573537</div>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">⏰</div>
+                                <div>
+                                    <div class="info-title">Opening hours</div>
+                                    <div class="info-detail">Every day from 10:00 AM to 11:00 PM</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Map Frame -->
+                        <div class="map-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4816172638207!2d90.36414307410215!3d23.80146708681615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c100585602cb%3A0xae6246461d21de02!2sBilliMeow!5e0!3m2!1sen!2sbd!4v1791188250044!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">We are here to provide the best possible care for your beloved pet.</h2>
+                    <p class="cta-desc">Visit Billi Meow Pet Shop today or call us to order any premium products.</p>
+                    <a href="#contact" class="btn btn-orange" style="font-size:1.15rem; padding:16px 40px;">Contact us</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="footer-logo">
+                            <img src="img/logo.png" alt="বিল্লি মেও Footer Logo">
+                            <span class="footer-brand-name">Billi Meow</span>
+                        </div>
+                        <p class="footer-desc">Billy Mayo Pet Shop is a trusted destination for pet care, authentic food and quality accessories. We are happy to be a part of your pet Sonamani's happy life.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-btn" title="Facebook">f</a>
+                            <a href="#" class="social-btn" title="Instagram">ig</a>
+                            <a href="#" class="social-btn" title="WhatsApp">wa</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="footer-title">Quick Link</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#why-us">Why Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="footer-title">Category</h4>
+                        <ul class="footer-links">
+                            <li><a href="#services">Cat Food</a></li>
+                            <li><a href="#services">Accessesories</a></li>
+                            <li><a href="#services">Grooming Products</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="footer-title">Contact</h4>
+                        <ul class="footer-links" style="line-height:1.8;">
+                            <li>📍 Mirpur, Dhaka, Bangladesh</li>
+                            <li>📞 +880 1766-573537</li>
+                            <li>✉️ urbillimeow@gmail.com</li>
+                            <li>⏰ Open: 10 AM to 11 PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    &copy; 2026 Billi Meow Pet Shop. All Rights Reserved. Designed with care for pet lovers.
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
